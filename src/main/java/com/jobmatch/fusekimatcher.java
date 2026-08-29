@@ -25,7 +25,7 @@ public class fusekimatcher {
 
         static void loadData() {
             model = ModelFactory.createDefaultModel();
-            String rdfPath = "path"; //path
+            String rdfPath = "path"; //path to your rdf file
             model.read(rdfPath);
             System.out.println(" RDF loaded: " + model.size() + " triples");
         }
